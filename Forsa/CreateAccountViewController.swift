@@ -1,5 +1,7 @@
 import UIKit
 import FirebaseAuth
+import Firebase
+import FirebaseFirestore
 
 class CreateAccountViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
@@ -18,7 +20,8 @@ class CreateAccountViewController: UIViewController, UIImagePickerControllerDele
     @IBOutlet weak var PreferredIndustriesTextField: UITextView!
     @IBOutlet weak var CareerInterestsTextField: UITextView!
     @IBOutlet weak var ProfilePhoto: UIImageView!
-    @IBOutlet weak var SaveBtn: UIButton!
+
+  
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,9 +30,25 @@ class CreateAccountViewController: UIViewController, UIImagePickerControllerDele
     }
 
     @IBAction func SaveButtonTapped(_ sender: UIButton) {
-        showSuccessAlert()
+        //validate fields
+       
     }
+    
+    
+    // Reusable alert function
+    func alert(message: String, completion: (() -> Void)? = nil) {
+        let alert = UIAlertController(title: "Alert", message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { _ in
+            completion?() // Execute completion handler if provided
+        }))
+        present(alert, animated: true, completion: nil)
+    }
+    
 
+    
+    
+    
+    
     // Show success alert
     func showSuccessAlert() {
         let alert = UIAlertController(title: "Success", message: "Your account has been successfully created.", preferredStyle: .alert)
@@ -82,3 +101,4 @@ class CreateAccountViewController: UIViewController, UIImagePickerControllerDele
         picker.dismiss(animated: true, completion: nil)
     }
 }
+

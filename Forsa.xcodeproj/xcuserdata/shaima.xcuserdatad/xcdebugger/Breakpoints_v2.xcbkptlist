@@ -3,4 +3,108 @@
    uuid = "F1DB67BE-1A99-4E85-B0F1-254C359ED843"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "429C08F9-C44F-4CA6-8780-911003D4719E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Forsa/CreateAccountViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "CreateAccountViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "429C08F9-C44F-4CA6-8780-911003D4719E - 35d6dbacb0f201f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Forsa.CreateAccountViewController.SaveBtn.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Forsa.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shaima/Desktop/Forsa/Forsa/CreateAccountViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "429C08F9-C44F-4CA6-8780-911003D4719E - 6a313c9a71bff013"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Forsa.CreateAccountViewController.SaveBtn.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Forsa.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shaima/Desktop/Forsa/Forsa/CreateAccountViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "429C08F9-C44F-4CA6-8780-911003D4719E - c31a6a65f316090d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Forsa.CreateAccountViewController.SaveBtn.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Forsa.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shaima/Desktop/Forsa/Forsa/CreateAccountViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+               <Location
+                  uuid = "429C08F9-C44F-4CA6-8780-911003D4719E - 29d573d96b1ff0e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Forsa.CreateAccountViewController.SaveBtn.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Forsa.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "429C08F9-C44F-4CA6-8780-911003D4719E - dbf107366bd6afe6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Forsa.CreateAccountViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Forsa.CreateAccountViewController"
+                  moduleName = "Forsa.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shaima/Desktop/Forsa/Forsa/CreateAccountViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+               <Location
+                  uuid = "429C08F9-C44F-4CA6-8780-911003D4719E - f888f57416d4645e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Forsa.CreateAccountViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Forsa.CreateAccountViewController&gt;"
+                  moduleName = "Forsa.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shaima/Desktop/Forsa/Forsa/CreateAccountViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

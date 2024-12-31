@@ -9,13 +9,59 @@
 /* Begin PBXBuildFile section */
 		3646D9DC2D04310F00556AAD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3646D9DB2D04310F00556AAD /* LoginViewController.swift */; };
 		367103972D04C18300855FCD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367103962D04C18300855FCD /* ProfileViewController.swift */; };
+		36EA8AAC2D147748008097B1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 36EA8AAB2D147748008097B1 /* FirebaseFirestore */; };
+		36EA8AAE2D147808008097B1 /* employer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EA8AAD2D147808008097B1 /* employer.storyboard */; };
+		36EA8AB02D147832008097B1 /* admin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EA8AAF2D147832008097B1 /* admin.storyboard */; };
+		36EA8AB22D147903008097B1 /* job.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36EA8AB12D147903008097B1 /* job.storyboard */; };
+		36EA8AB42D154825008097B1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EA8AB32D154825008097B1 /* Constants.swift */; };
+		36EA8AB62D15721A008097B1 /* CreateAccountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EA8AB52D15721A008097B1 /* CreateAccountTableViewController.swift */; };
+		36EA8AB82D15FAB0008097B1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EA8AB72D15FAB0008097B1 /* SettingsViewController.swift */; };
+		36EA8ABA2D1602EA008097B1 /* ChangePassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EA8AB92D1602EA008097B1 /* ChangePassViewController.swift */; };
+		36EA8ABC2D16BDF1008097B1 /* AdminDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EA8ABB2D16BDF1008097B1 /* AdminDashboardViewController.swift */; };
+		36EA8ABE2D16BE33008097B1 /* EmployerDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EA8ABD2D16BE33008097B1 /* EmployerDashboardViewController.swift */; };
+		36EA8AC02D182183008097B1 /* EditProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EA8ABF2D182183008097B1 /* EditProfileTableViewController.swift */; };
 		36FCBDB02D005EA7004B8789 /* Shaima.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FCBDAF2D005EA7004B8789 /* Shaima.storyboard */; };
 		36FCBDB42D023AB6004B8789 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FCBDB32D023AB6004B8789 /* SplashScreenViewController.swift */; };
-		36FCBDB62D02444A004B8789 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FCBDB52D02444A004B8789 /* CreateAccountViewController.swift */; };
 		3F39B91F2D05933D00165184 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F39B91E2D05933D00165184 /* GoogleService-Info.plist */; };
 		3F39B9232D0595B200165184 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3F39B9222D0595B200165184 /* FirebaseAuth */; };
 		3F39B9252D0595B900165184 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3F39B9242D0595B900165184 /* FirebaseCore */; };
 		3F39B9272D0595C200165184 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3F39B9262D0595C200165184 /* FirebaseDatabase */; };
+		AC7023DF2D1F168A00D97B4B /* RecommendedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023DA2D1F168900D97B4B /* RecommendedTableViewController.swift */; };
+		AC7023E02D1F168A00D97B4B /* FilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023DB2D1F168900D97B4B /* FilterTableViewController.swift */; };
+		AC7023E12D1F168A00D97B4B /* JobsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023DC2D1F168900D97B4B /* JobsTableViewController.swift */; };
+		AC7023E22D1F168A00D97B4B /* NotificationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023DD2D1F168A00D97B4B /* NotificationsTableViewController.swift */; };
+		AC7023E32D1F168A00D97B4B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023DE2D1F168A00D97B4B /* DetailsViewController.swift */; };
+		AC7023E82D1F182E00D97B4B /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023E42D1F182D00D97B4B /* VideoViewController.swift */; };
+		AC7023E92D1F182E00D97B4B /* PreviewPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023E52D1F182E00D97B4B /* PreviewPageViewController.swift */; };
+		AC7023EA2D1F182E00D97B4B /* CreateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023E62D1F182E00D97B4B /* CreateTableViewController.swift */; };
+		AC7023EB2D1F182E00D97B4B /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023E72D1F182E00D97B4B /* TutorialViewController.swift */; };
+		AC7024092D1F1AB300D97B4B /* InterviewiedResourcesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC7023EE2D1F1AAE00D97B4B /* InterviewiedResourcesTableViewCell.xib */; };
+		AC70240A2D1F1AB300D97B4B /* ApplicationTracker2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023EF2D1F1AAE00D97B4B /* ApplicationTracker2ViewController.swift */; };
+		AC70240B2D1F1AB300D97B4B /* RejectedResourcesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023F02D1F1AAE00D97B4B /* RejectedResourcesTableViewCell.swift */; };
+		AC70240C2D1F1AB300D97B4B /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023F12D1F1AAE00D97B4B /* EducationViewController.swift */; };
+		AC70240D2D1F1AB300D97B4B /* ExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023F22D1F1AAE00D97B4B /* ExperienceViewController.swift */; };
+		AC70240E2D1F1AB300D97B4B /* JobPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023F32D1F1AAF00D97B4B /* JobPageViewController.swift */; };
+		AC70240F2D1F1AB300D97B4B /* ReviewingResourcesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023F42D1F1AAF00D97B4B /* ReviewingResourcesTableViewCell.swift */; };
+		AC7024102D1F1AB300D97B4B /* JobExperienceDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023F52D1F1AAF00D97B4B /* JobExperienceDetailsViewController.swift */; };
+		AC7024112D1F1AB300D97B4B /* ReviwingResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023F62D1F1AAF00D97B4B /* ReviwingResourcesViewController.swift */; };
+		AC7024132D1F1AB300D97B4B /* SavedJobsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC7023F82D1F1AAF00D97B4B /* SavedJobsTableViewCell.xib */; };
+		AC7024142D1F1AB300D97B4B /* SavedJobsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023F92D1F1AB000D97B4B /* SavedJobsTableViewCell.swift */; };
+		AC7024152D1F1AB300D97B4B /* SavedResourcesCell2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023FA2D1F1AB000D97B4B /* SavedResourcesCell2TableViewCell.swift */; };
+		AC7024162D1F1AB300D97B4B /* CoverandBriefLetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023FB2D1F1AB000D97B4B /* CoverandBriefLetterViewController.swift */; };
+		AC7024172D1F1AB300D97B4B /* InterviewiedResourcesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023FC2D1F1AB000D97B4B /* InterviewiedResourcesTableViewCell.swift */; };
+		AC7024182D1F1AB300D97B4B /* CVuploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7023FD2D1F1AB100D97B4B /* CVuploadViewController.swift */; };
+		AC7024192D1F1AB300D97B4B /* ReviewingResourcesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC7023FE2D1F1AB100D97B4B /* ReviewingResourcesTableViewCell.xib */; };
+		AC70241A2D1F1AB300D97B4B /* SavedResourcesCell2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC7023FF2D1F1AB100D97B4B /* SavedResourcesCell2TableViewCell.xib */; };
+		AC70241B2D1F1AB300D97B4B /* ApplicationTracker2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7024002D1F1AB100D97B4B /* ApplicationTracker2TableViewCell.swift */; };
+		AC70241C2D1F1AB300D97B4B /* InterviewiedResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7024012D1F1AB100D97B4B /* InterviewiedResourcesViewController.swift */; };
+		AC70241D2D1F1AB300D97B4B /* Training2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7024022D1F1AB100D97B4B /* Training2ViewController.swift */; };
+		AC70241E2D1F1AB300D97B4B /* RejectedResourcesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC7024032D1F1AB200D97B4B /* RejectedResourcesTableViewCell.xib */; };
+		AC70241F2D1F1AB300D97B4B /* ApplicationTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7024042D1F1AB200D97B4B /* ApplicationTrackerViewController.swift */; };
+		AC7024202D1F1AB300D97B4B /* RejectedResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7024052D1F1AB200D97B4B /* RejectedResourcesViewController.swift */; };
+		AC7024212D1F1AB300D97B4B /* CurrentOccupationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7024062D1F1AB200D97B4B /* CurrentOccupationDetailsViewController.swift */; };
+		AC7024222D1F1AB300D97B4B /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7024072D1F1AB200D97B4B /* CoursesViewController.swift */; };
+		AC7024232D1F1AB300D97B4B /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7024082D1F1AB300D97B4B /* UIColor+Extensions.swift */; };
+		AC7024272D1F215E00D97B4B /* ApplicationTracker2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC7024262D1F215E00D97B4B /* ApplicationTracker2TableViewCell.xib */; };
 		C33794962D00567300B1A5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33794952D00567300B1A5C3 /* AppDelegate.swift */; };
 		C33794982D00567300B1A5C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33794972D00567300B1A5C3 /* SceneDelegate.swift */; };
 		C337949A2D00567300B1A5C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33794992D00567300B1A5C3 /* ViewController.swift */; };
@@ -25,6 +71,7 @@
 		C33794AD2D00567500B1A5C3 /* ForsaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33794AC2D00567500B1A5C3 /* ForsaTests.swift */; };
 		C33794B72D00567500B1A5C3 /* ForsaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33794B62D00567500B1A5C3 /* ForsaUITests.swift */; };
 		C33794B92D00567500B1A5C3 /* ForsaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33794B82D00567500B1A5C3 /* ForsaUITestsLaunchTests.swift */; };
+		F82C3F3D2D1DC97C0047ECB4 /* JobSeekerDashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F82C3F3C2D1DC97C0047ECB4 /* JobSeekerDashboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +94,55 @@
 /* Begin PBXFileReference section */
 		3646D9DB2D04310F00556AAD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		367103962D04C18300855FCD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		36EA8AAD2D147808008097B1 /* employer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = employer.storyboard; sourceTree = "<group>"; };
+		36EA8AAF2D147832008097B1 /* admin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = admin.storyboard; sourceTree = "<group>"; };
+		36EA8AB12D147903008097B1 /* job.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = job.storyboard; sourceTree = "<group>"; };
+		36EA8AB32D154825008097B1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		36EA8AB52D15721A008097B1 /* CreateAccountTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountTableViewController.swift; sourceTree = "<group>"; };
+		36EA8AB72D15FAB0008097B1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		36EA8AB92D1602EA008097B1 /* ChangePassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePassViewController.swift; sourceTree = "<group>"; };
+		36EA8ABB2D16BDF1008097B1 /* AdminDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminDashboardViewController.swift; sourceTree = "<group>"; };
+		36EA8ABD2D16BE33008097B1 /* EmployerDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerDashboardViewController.swift; sourceTree = "<group>"; };
+		36EA8ABF2D182183008097B1 /* EditProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileTableViewController.swift; sourceTree = "<group>"; };
 		36FCBDAF2D005EA7004B8789 /* Shaima.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shaima.storyboard; sourceTree = "<group>"; };
 		36FCBDB32D023AB6004B8789 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
-		36FCBDB52D02444A004B8789 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		3F39B91E2D05933D00165184 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AC7023DA2D1F168900D97B4B /* RecommendedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendedTableViewController.swift; sourceTree = "<group>"; };
+		AC7023DB2D1F168900D97B4B /* FilterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterTableViewController.swift; sourceTree = "<group>"; };
+		AC7023DC2D1F168900D97B4B /* JobsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobsTableViewController.swift; sourceTree = "<group>"; };
+		AC7023DD2D1F168A00D97B4B /* NotificationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewController.swift; sourceTree = "<group>"; };
+		AC7023DE2D1F168A00D97B4B /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		AC7023E42D1F182D00D97B4B /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		AC7023E52D1F182E00D97B4B /* PreviewPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewPageViewController.swift; sourceTree = "<group>"; };
+		AC7023E62D1F182E00D97B4B /* CreateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTableViewController.swift; sourceTree = "<group>"; };
+		AC7023E72D1F182E00D97B4B /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		AC7023EE2D1F1AAE00D97B4B /* InterviewiedResourcesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InterviewiedResourcesTableViewCell.xib; sourceTree = "<group>"; };
+		AC7023EF2D1F1AAE00D97B4B /* ApplicationTracker2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationTracker2ViewController.swift; sourceTree = "<group>"; };
+		AC7023F02D1F1AAE00D97B4B /* RejectedResourcesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RejectedResourcesTableViewCell.swift; sourceTree = "<group>"; };
+		AC7023F12D1F1AAE00D97B4B /* EducationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
+		AC7023F22D1F1AAE00D97B4B /* ExperienceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceViewController.swift; sourceTree = "<group>"; };
+		AC7023F32D1F1AAF00D97B4B /* JobPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobPageViewController.swift; sourceTree = "<group>"; };
+		AC7023F42D1F1AAF00D97B4B /* ReviewingResourcesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewingResourcesTableViewCell.swift; sourceTree = "<group>"; };
+		AC7023F52D1F1AAF00D97B4B /* JobExperienceDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobExperienceDetailsViewController.swift; sourceTree = "<group>"; };
+		AC7023F62D1F1AAF00D97B4B /* ReviwingResourcesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviwingResourcesViewController.swift; sourceTree = "<group>"; };
+		AC7023F82D1F1AAF00D97B4B /* SavedJobsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SavedJobsTableViewCell.xib; sourceTree = "<group>"; };
+		AC7023F92D1F1AB000D97B4B /* SavedJobsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedJobsTableViewCell.swift; sourceTree = "<group>"; };
+		AC7023FA2D1F1AB000D97B4B /* SavedResourcesCell2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedResourcesCell2TableViewCell.swift; sourceTree = "<group>"; };
+		AC7023FB2D1F1AB000D97B4B /* CoverandBriefLetterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverandBriefLetterViewController.swift; sourceTree = "<group>"; };
+		AC7023FC2D1F1AB000D97B4B /* InterviewiedResourcesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewiedResourcesTableViewCell.swift; sourceTree = "<group>"; };
+		AC7023FD2D1F1AB100D97B4B /* CVuploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVuploadViewController.swift; sourceTree = "<group>"; };
+		AC7023FE2D1F1AB100D97B4B /* ReviewingResourcesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReviewingResourcesTableViewCell.xib; sourceTree = "<group>"; };
+		AC7023FF2D1F1AB100D97B4B /* SavedResourcesCell2TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SavedResourcesCell2TableViewCell.xib; sourceTree = "<group>"; };
+		AC7024002D1F1AB100D97B4B /* ApplicationTracker2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationTracker2TableViewCell.swift; sourceTree = "<group>"; };
+		AC7024012D1F1AB100D97B4B /* InterviewiedResourcesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterviewiedResourcesViewController.swift; sourceTree = "<group>"; };
+		AC7024022D1F1AB100D97B4B /* Training2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Training2ViewController.swift; sourceTree = "<group>"; };
+		AC7024032D1F1AB200D97B4B /* RejectedResourcesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RejectedResourcesTableViewCell.xib; sourceTree = "<group>"; };
+		AC7024042D1F1AB200D97B4B /* ApplicationTrackerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationTrackerViewController.swift; sourceTree = "<group>"; };
+		AC7024052D1F1AB200D97B4B /* RejectedResourcesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RejectedResourcesViewController.swift; sourceTree = "<group>"; };
+		AC7024062D1F1AB200D97B4B /* CurrentOccupationDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentOccupationDetailsViewController.swift; sourceTree = "<group>"; };
+		AC7024072D1F1AB200D97B4B /* CoursesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
+		AC7024082D1F1AB300D97B4B /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		AC7024262D1F215E00D97B4B /* ApplicationTracker2TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApplicationTracker2TableViewCell.xib; sourceTree = "<group>"; };
 		C33794922D00567300B1A5C3 /* Forsa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forsa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33794952D00567300B1A5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C33794972D00567300B1A5C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +156,7 @@
 		C33794B22D00567500B1A5C3 /* ForsaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForsaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33794B62D00567500B1A5C3 /* ForsaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForsaUITests.swift; sourceTree = "<group>"; };
 		C33794B82D00567500B1A5C3 /* ForsaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForsaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F82C3F3C2D1DC97C0047ECB4 /* JobSeekerDashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JobSeekerDashboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F39B9272D0595C200165184 /* FirebaseDatabase in Frameworks */,
+				36EA8AAC2D147748008097B1 /* FirebaseFirestore in Frameworks */,
 				3F39B9252D0595B900165184 /* FirebaseCore in Frameworks */,
 				3F39B9232D0595B200165184 /* FirebaseAuth in Frameworks */,
 			);
@@ -125,18 +219,25 @@
 		C33794942D00567300B1A5C3 /* Forsa */ = {
 			isa = PBXGroup;
 			children = (
+				D11127302D1F47FF0079864B /* View Controllers */,
 				C33794952D00567300B1A5C3 /* AppDelegate.swift */,
 				C33794972D00567300B1A5C3 /* SceneDelegate.swift */,
 				C33794992D00567300B1A5C3 /* ViewController.swift */,
 				C337949B2D00567300B1A5C3 /* Main.storyboard */,
 				36FCBDAF2D005EA7004B8789 /* Shaima.storyboard */,
-				367103962D04C18300855FCD /* ProfileViewController.swift */,
-				3646D9DB2D04310F00556AAD /* LoginViewController.swift */,
-				36FCBDB52D02444A004B8789 /* CreateAccountViewController.swift */,
+				36EA8AB12D147903008097B1 /* job.storyboard */,
+				36EA8AAD2D147808008097B1 /* employer.storyboard */,
+				36EA8AAF2D147832008097B1 /* admin.storyboard */,
+				F82C3F3C2D1DC97C0047ECB4 /* JobSeekerDashboard.storyboard */,
+				AC7023EE2D1F1AAE00D97B4B /* InterviewiedResourcesTableViewCell.xib */,
+				AC7024032D1F1AB200D97B4B /* RejectedResourcesTableViewCell.xib */,
+				AC7023FE2D1F1AB100D97B4B /* ReviewingResourcesTableViewCell.xib */,
+				AC7023F82D1F1AAF00D97B4B /* SavedJobsTableViewCell.xib */,
+				AC7023FF2D1F1AB100D97B4B /* SavedResourcesCell2TableViewCell.xib */,
+				AC7024262D1F215E00D97B4B /* ApplicationTracker2TableViewCell.xib */,
 				C337949E2D00567500B1A5C3 /* Assets.xcassets */,
 				3F39B91E2D05933D00165184 /* GoogleService-Info.plist */,
 				C33794A02D00567500B1A5C3 /* LaunchScreen.storyboard */,
-				36FCBDB32D023AB6004B8789 /* SplashScreenViewController.swift */,
 				C33794A32D00567500B1A5C3 /* Info.plist */,
 			);
 			path = Forsa;
@@ -159,6 +260,53 @@
 			path = ForsaUITests;
 			sourceTree = "<group>";
 		};
+		D11127302D1F47FF0079864B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				36EA8AB72D15FAB0008097B1 /* SettingsViewController.swift */,
+				36EA8AB92D1602EA008097B1 /* ChangePassViewController.swift */,
+				36EA8AB52D15721A008097B1 /* CreateAccountTableViewController.swift */,
+				36EA8AB32D154825008097B1 /* Constants.swift */,
+				367103962D04C18300855FCD /* ProfileViewController.swift */,
+				36EA8ABF2D182183008097B1 /* EditProfileTableViewController.swift */,
+				3646D9DB2D04310F00556AAD /* LoginViewController.swift */,
+				36EA8ABB2D16BDF1008097B1 /* AdminDashboardViewController.swift */,
+				36EA8ABD2D16BE33008097B1 /* EmployerDashboardViewController.swift */,
+				AC7023DE2D1F168A00D97B4B /* DetailsViewController.swift */,
+				AC7023DB2D1F168900D97B4B /* FilterTableViewController.swift */,
+				AC7023DC2D1F168900D97B4B /* JobsTableViewController.swift */,
+				AC7023DD2D1F168A00D97B4B /* NotificationsTableViewController.swift */,
+				AC7023DA2D1F168900D97B4B /* RecommendedTableViewController.swift */,
+				AC7023E62D1F182E00D97B4B /* CreateTableViewController.swift */,
+				AC7023E52D1F182E00D97B4B /* PreviewPageViewController.swift */,
+				AC7023E72D1F182E00D97B4B /* TutorialViewController.swift */,
+				AC7023E42D1F182D00D97B4B /* VideoViewController.swift */,
+				AC7024002D1F1AB100D97B4B /* ApplicationTracker2TableViewCell.swift */,
+				AC7023EF2D1F1AAE00D97B4B /* ApplicationTracker2ViewController.swift */,
+				AC7024042D1F1AB200D97B4B /* ApplicationTrackerViewController.swift */,
+				AC7024072D1F1AB200D97B4B /* CoursesViewController.swift */,
+				AC7023FB2D1F1AB000D97B4B /* CoverandBriefLetterViewController.swift */,
+				AC7024062D1F1AB200D97B4B /* CurrentOccupationDetailsViewController.swift */,
+				AC7023FD2D1F1AB100D97B4B /* CVuploadViewController.swift */,
+				AC7023F12D1F1AAE00D97B4B /* EducationViewController.swift */,
+				AC7023F22D1F1AAE00D97B4B /* ExperienceViewController.swift */,
+				AC7023FC2D1F1AB000D97B4B /* InterviewiedResourcesTableViewCell.swift */,
+				AC7024012D1F1AB100D97B4B /* InterviewiedResourcesViewController.swift */,
+				AC7023F52D1F1AAF00D97B4B /* JobExperienceDetailsViewController.swift */,
+				AC7023F32D1F1AAF00D97B4B /* JobPageViewController.swift */,
+				AC7023F02D1F1AAE00D97B4B /* RejectedResourcesTableViewCell.swift */,
+				AC7024052D1F1AB200D97B4B /* RejectedResourcesViewController.swift */,
+				AC7023F42D1F1AAF00D97B4B /* ReviewingResourcesTableViewCell.swift */,
+				AC7023F62D1F1AAF00D97B4B /* ReviwingResourcesViewController.swift */,
+				AC7023F92D1F1AB000D97B4B /* SavedJobsTableViewCell.swift */,
+				AC7023FA2D1F1AB000D97B4B /* SavedResourcesCell2TableViewCell.swift */,
+				AC7024022D1F1AB100D97B4B /* Training2ViewController.swift */,
+				AC7024082D1F1AB300D97B4B /* UIColor+Extensions.swift */,
+				36FCBDB32D023AB6004B8789 /* SplashScreenViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -179,6 +327,7 @@
 				3F39B9222D0595B200165184 /* FirebaseAuth */,
 				3F39B9242D0595B900165184 /* FirebaseCore */,
 				3F39B9262D0595C200165184 /* FirebaseDatabase */,
+				36EA8AAB2D147748008097B1 /* FirebaseFirestore */,
 			);
 			productName = Forsa;
 			productReference = C33794922D00567300B1A5C3 /* Forsa.app */;
@@ -271,11 +420,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36EA8AB22D147903008097B1 /* job.storyboard in Resources */,
 				C33794A22D00567500B1A5C3 /* LaunchScreen.storyboard in Resources */,
+				AC7024192D1F1AB300D97B4B /* ReviewingResourcesTableViewCell.xib in Resources */,
 				C337949F2D00567500B1A5C3 /* Assets.xcassets in Resources */,
+				AC70241A2D1F1AB300D97B4B /* SavedResourcesCell2TableViewCell.xib in Resources */,
+				F82C3F3D2D1DC97C0047ECB4 /* JobSeekerDashboard.storyboard in Resources */,
 				C337949D2D00567300B1A5C3 /* Main.storyboard in Resources */,
+				AC7024132D1F1AB300D97B4B /* SavedJobsTableViewCell.xib in Resources */,
 				36FCBDB02D005EA7004B8789 /* Shaima.storyboard in Resources */,
+				AC7024092D1F1AB300D97B4B /* InterviewiedResourcesTableViewCell.xib in Resources */,
+				AC7024272D1F215E00D97B4B /* ApplicationTracker2TableViewCell.xib in Resources */,
 				3F39B91F2D05933D00165184 /* GoogleService-Info.plist in Resources */,
+				AC70241E2D1F1AB300D97B4B /* RejectedResourcesTableViewCell.xib in Resources */,
+				36EA8AB02D147832008097B1 /* admin.storyboard in Resources */,
+				36EA8AAE2D147808008097B1 /* employer.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,13 +459,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC7024102D1F1AB300D97B4B /* JobExperienceDetailsViewController.swift in Sources */,
+				AC7024112D1F1AB300D97B4B /* ReviwingResourcesViewController.swift in Sources */,
+				AC7024212D1F1AB300D97B4B /* CurrentOccupationDetailsViewController.swift in Sources */,
+				AC70241B2D1F1AB300D97B4B /* ApplicationTracker2TableViewCell.swift in Sources */,
+				AC7023E92D1F182E00D97B4B /* PreviewPageViewController.swift in Sources */,
 				3646D9DC2D04310F00556AAD /* LoginViewController.swift in Sources */,
-				36FCBDB62D02444A004B8789 /* CreateAccountViewController.swift in Sources */,
 				C337949A2D00567300B1A5C3 /* ViewController.swift in Sources */,
+				AC70240C2D1F1AB300D97B4B /* EducationViewController.swift in Sources */,
+				AC7024202D1F1AB300D97B4B /* RejectedResourcesViewController.swift in Sources */,
+				AC7024222D1F1AB300D97B4B /* CoursesViewController.swift in Sources */,
+				AC70240B2D1F1AB300D97B4B /* RejectedResourcesTableViewCell.swift in Sources */,
 				C33794962D00567300B1A5C3 /* AppDelegate.swift in Sources */,
 				367103972D04C18300855FCD /* ProfileViewController.swift in Sources */,
+				AC70240A2D1F1AB300D97B4B /* ApplicationTracker2ViewController.swift in Sources */,
+				AC70240E2D1F1AB300D97B4B /* JobPageViewController.swift in Sources */,
+				AC70240D2D1F1AB300D97B4B /* ExperienceViewController.swift in Sources */,
+				AC7024152D1F1AB300D97B4B /* SavedResourcesCell2TableViewCell.swift in Sources */,
+				AC70240F2D1F1AB300D97B4B /* ReviewingResourcesTableViewCell.swift in Sources */,
+				36EA8ABE2D16BE33008097B1 /* EmployerDashboardViewController.swift in Sources */,
+				AC7024232D1F1AB300D97B4B /* UIColor+Extensions.swift in Sources */,
+				AC7024162D1F1AB300D97B4B /* CoverandBriefLetterViewController.swift in Sources */,
+				AC7024182D1F1AB300D97B4B /* CVuploadViewController.swift in Sources */,
+				AC7023E82D1F182E00D97B4B /* VideoViewController.swift in Sources */,
+				AC7023DF2D1F168A00D97B4B /* RecommendedTableViewController.swift in Sources */,
 				C33794982D00567300B1A5C3 /* SceneDelegate.swift in Sources */,
+				36EA8ABA2D1602EA008097B1 /* ChangePassViewController.swift in Sources */,
+				36EA8AB62D15721A008097B1 /* CreateAccountTableViewController.swift in Sources */,
 				36FCBDB42D023AB6004B8789 /* SplashScreenViewController.swift in Sources */,
+				AC70241C2D1F1AB300D97B4B /* InterviewiedResourcesViewController.swift in Sources */,
+				36EA8ABC2D16BDF1008097B1 /* AdminDashboardViewController.swift in Sources */,
+				AC7023E32D1F168A00D97B4B /* DetailsViewController.swift in Sources */,
+				AC7023E22D1F168A00D97B4B /* NotificationsTableViewController.swift in Sources */,
+				36EA8AB42D154825008097B1 /* Constants.swift in Sources */,
+				36EA8AC02D182183008097B1 /* EditProfileTableViewController.swift in Sources */,
+				AC7023E12D1F168A00D97B4B /* JobsTableViewController.swift in Sources */,
+				AC70241F2D1F1AB300D97B4B /* ApplicationTrackerViewController.swift in Sources */,
+				AC70241D2D1F1AB300D97B4B /* Training2ViewController.swift in Sources */,
+				AC7024142D1F1AB300D97B4B /* SavedJobsTableViewCell.swift in Sources */,
+				AC7023E02D1F168A00D97B4B /* FilterTableViewController.swift in Sources */,
+				AC7023EA2D1F182E00D97B4B /* CreateTableViewController.swift in Sources */,
+				AC7023EB2D1F182E00D97B4B /* TutorialViewController.swift in Sources */,
+				36EA8AB82D15FAB0008097B1 /* SettingsViewController.swift in Sources */,
+				AC7024172D1F1AB300D97B4B /* InterviewiedResourcesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,6 +855,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		36EA8AAB2D147748008097B1 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F39B9202D05959700165184 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
 		3F39B9222D0595B200165184 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3F39B9202D05959700165184 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

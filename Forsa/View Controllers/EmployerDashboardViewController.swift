@@ -1,13 +1,13 @@
 //
-//  ProfileViewController.swift
+//  EmployerDashboardViewController.swift
 //  Forsa
 //
-//  Created by Shaima on 07/12/2024.
+//  Created by Shaima on 21/12/2024.
 //
 
 import UIKit
 
-class ProfileViewController: UIViewController {
+class EmployerDashboardViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
